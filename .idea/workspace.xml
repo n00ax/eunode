@@ -2,50 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf92e1d6-f7e6-4eda-b4aa-897e80f97539" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/eunode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/go_build_entrypoint_go_linux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/darwin_amd64/eunode/ctx.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/darwin_amd64/eunode/entry.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/darwin_amd64/eunode/init.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/darwin_amd64/eunode/launch.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/darwin_amd64/eunode/setup.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/atomic.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/multierr.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/zap.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/zap/buffer.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/zap/internal/bufferpool.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/zap/internal/color.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/zap/internal/exit.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/zap/zapcore.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/darwin_amd64/golang.org/x/sys/unix.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/linux_amd64/eunode/ctx.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/linux_amd64/eunode/entry.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/linux_amd64/eunode/launch.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/linux_amd64/eunode/setup.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/atomic.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/multierr.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/zap.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/zap/buffer.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/zap/internal/bufferpool.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/zap/internal/color.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/zap/internal/exit.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/zap/zapcore.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/linux_amd64/golang.org/x/sys/unix.a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eunode/ctx/sys.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eunode/entry/init.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eunode/launch/launchable.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eunode/launch/shell.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/eunode/setup/fsinit.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go.uber.org/atomic" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go.uber.org/multierr" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/go.uber.org/zap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/golang.org/x/sys" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/entrypoint.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -142,8 +100,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            <state relative-caret-position="15">
+              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -191,8 +149,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="97" />
-    <option name="y" value="52" />
+    <option name="x" value="614" />
+    <option name="y" value="23" />
     <option name="width" value="1477" />
     <option name="height" value="864" />
   </component>
@@ -281,8 +239,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build entrypoint.go">
-    <configuration name="go build entrypoint.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.eunode.go">
+    <configuration name="eunode.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="eunode" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
@@ -298,16 +256,16 @@
     <configuration name="Unnamed" type="GoRemoteDebugConfigurationType" factoryName="Go Remote" />
     <list>
       <item itemvalue="Go Remote.Unnamed" />
-      <item itemvalue="Go Build.go build entrypoint.go" />
+      <item itemvalue="Go Build.eunode.go" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build entrypoint.go" />
+        <item itemvalue="Go Build.eunode.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="97" y="52" width="1477" height="864" extended-state="0" />
+    <frame x="713" y="23" width="1477" height="864" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21327014" />
@@ -425,8 +383,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        <state relative-caret-position="15">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
