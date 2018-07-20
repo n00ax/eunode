@@ -5,3 +5,7 @@ build/eunode:
 
 clean:
 	rm build/eunode
+
+getdeps:
+	GOPATH=${CURDIR} GOOS=linux go get go.uber.org/zap
+	GOPATH=${CURDIR} GOOS=linux go get golang.org/x/sys/unix

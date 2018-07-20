@@ -24,6 +24,4 @@ func (fsInit *FSInit) Init() {
 	unix.Mount("proc", "/proc", "proc",0, "")
 	unix.Mount("sysfs", "/sys", "sysfs", 0, "")
 
-	//
-
 }
