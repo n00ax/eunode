@@ -2,8 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf92e1d6-f7e6-4eda-b4aa-897e80f97539" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/eunode/ctx.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/eunode/entry.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/eunode/init.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/eunode/launch.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/eunode/setup.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/atomic.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/multierr.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/zap.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/zap/buffer.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/zap/internal/bufferpool.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/zap/internal/color.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/zap/internal/exit.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/go.uber.org/zap/zapcore.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/darwin_amd64/golang.org/x/sys/unix.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/eunode/ctx.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/eunode/entry.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/eunode/launch.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/eunode/setup.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/atomic.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/multierr.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/zap.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/zap/buffer.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/zap/internal/bufferpool.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/zap/internal/color.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/zap/internal/exit.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/go.uber.org/zap/zapcore.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/linux_amd64/golang.org/x/sys/unix.a" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +45,7 @@
       <file leaf-file-name="entrypoint.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/entrypoint.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="180">
               <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding>
                 <element signature="e#14#48#0" expanded="true" />
@@ -29,7 +57,7 @@
       <file leaf-file-name="init.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eunode/entry/init.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
+            <state relative-caret-position="645">
               <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
             </state>
           </provider>
@@ -38,17 +66,17 @@
       <file leaf-file-name="proc.go" pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/runtime/proc.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
+            <state relative-caret-position="2895">
               <caret line="197" selection-start-line="197" selection-end-line="197" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fsinit.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fsinit.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/eunode/setup/fsinit.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="345">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -65,7 +93,7 @@
       <file leaf-file-name="syscall_linux.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/golang.org/x/sys/unix/syscall_linux.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
+            <state relative-caret-position="18705">
               <caret line="1250" column="5" selection-start-line="1250" selection-start-column="5" selection-end-line="1250" selection-end-column="5" />
             </state>
           </provider>
@@ -74,11 +102,8 @@
       <file leaf-file-name="shell.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/eunode/launch/shell.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="165">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="e#16#44#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -92,16 +117,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Local (1)" pinned="false" current-in-tab="false">
-        <entry file="mock:///Local (1)">
-          <provider selected="true" editor-type-id="terminal-session-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="30">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -133,9 +162,10 @@
         <option value="$PROJECT_DIR$/src/main/entrypoint.go" />
         <option value="$PROJECT_DIR$/src/eunode/launch/launchable.go" />
         <option value="$PROJECT_DIR$/src/eunode/launch/shell.go" />
-        <option value="$PROJECT_DIR$/src/eunode/setup/fsinit.go" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/src/eunode/setup/fsinit.go" />
       </list>
     </option>
   </component>
@@ -149,10 +179,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="614" />
+    <option name="x" value="1" />
     <option name="y" value="23" />
-    <option name="width" value="1477" />
-    <option name="height" value="864" />
+    <option name="width" value="1920" />
+    <option name="height" value="943" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -166,11 +196,6 @@
             <path>
               <item name="eunode" type="b2602c69:ProjectViewProjectNode" />
               <item name="eunode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eunode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eunode" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eunode" type="b2602c69:ProjectViewProjectNode" />
@@ -204,12 +229,6 @@
               <item name="eunode" type="462c0819:PsiDirectoryNode" />
               <item name="setup" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="eunode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eunode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="go.uber.org" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -225,7 +244,7 @@
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.eunode.go">
+  <component name="RunManager" selected="Makefile.build/eunode">
     <configuration name="eunode.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="eunode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -254,36 +273,64 @@
       <option name="run" value="false" />
     </configuration>
     <configuration name="Unnamed" type="GoRemoteDebugConfigurationType" factoryName="Go Remote" />
+    <configuration name="all" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="all" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+    </configuration>
+    <configuration name="build" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="build" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+    </configuration>
+    <configuration name="build/eunode" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="build/eunode" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+    </configuration>
+    <configuration name="clean" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
+      <makefile filename="$PROJECT_DIR$/Makefile" target="clean" workingDirectory="" arguments="">
+        <envs />
+      </makefile>
+    </configuration>
     <list>
       <item itemvalue="Go Remote.Unnamed" />
       <item itemvalue="Go Build.eunode.go" />
+      <item itemvalue="Makefile.build" />
+      <item itemvalue="Makefile.all" />
+      <item itemvalue="Makefile.build/eunode" />
+      <item itemvalue="Makefile.clean" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Makefile.build/eunode" />
+        <item itemvalue="Makefile.clean" />
+        <item itemvalue="Makefile.build" />
+        <item itemvalue="Makefile.all" />
         <item itemvalue="Go Build.eunode.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="713" y="23" width="1477" height="864" extended-state="0" />
+    <frame x="1" y="23" width="1920" height="943" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21327014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15052083" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5030467" side_tool="true" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50572914" side_tool="true" weight="0.3785961" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49966148" weight="0.32911393" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49895832" weight="0.32911393" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49627623" weight="0.278481" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49427083" weight="0.3785961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49695328" visible="true" weight="0.32911393" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4953125" visible="true" weight="0.29574224" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -295,6 +342,79 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/entrypoint.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#14#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eunode/entry/init.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/runtime/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2955">
+          <caret line="197" selection-start-line="197" selection-end-line="197" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eunode/setup/fsinit.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/golang.org/x/sys/unix/syscall_linux.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18750">
+          <caret line="1250" column="5" selection-start-line="1250" selection-start-column="5" selection-end-line="1250" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eunode/launch/shell.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eunode/launch/launchable.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/entrypoint.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -321,21 +441,21 @@
     </entry>
     <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/runtime/proc.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
+        <state relative-caret-position="2895">
           <caret line="197" selection-start-line="197" selection-end-line="197" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/golang.org/x/sys/unix/syscall_linux.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
+        <state relative-caret-position="18705">
           <caret line="1250" column="5" selection-start-line="1250" selection-start-column="5" selection-end-line="1250" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/entrypoint.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="180">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
             <element signature="e#14#48#0" expanded="true" />
@@ -345,25 +465,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eunode/launch/shell.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="165">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#16#44#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/eunode/entry/init.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
+        <state relative-caret-position="645">
           <caret line="51" column="10" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/eunode/setup/fsinit.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -381,10 +491,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="30">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/eunode/setup/fsinit.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
