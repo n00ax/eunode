@@ -1,7 +1,7 @@
 all: build/eunode
 
 build/eunode:
-	GOPATH=${CURDIR} GOOS=linux go build -o build/eunode src/main/entrypoint.go
+	GOPATH=${CURDIR} GOOS=linux go build -o build/eunode -a -ldflags '-extldflags "-static"' src/main/entrypoint.go
 
 clean:
 	rm build/eunode
