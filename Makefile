@@ -1,4 +1,4 @@
-all: build
+all: build/eunode
 
 build/eunode:
 	GOPATH=${CURDIR} GOOS=linux go build -o build/eunode src/main/entrypoint.go
