@@ -2,12 +2,12 @@ package entry
 
 import (
 	"eunode/ctx"
-	"eunode/setup"
 	"fmt"
 
 	"go.uber.org/zap"
 	"golang.org/x/sys/unix"
-	"eunode/launch"
+	"eunode/core"
+	"eunode/launch/launchables"
 )
 
 func EunodeEntry() {
@@ -38,17 +38,13 @@ func EunodeEntry() {
 		(3.) CoreInit, Setup (Basic Init) [FsInit..]
 	*/
 
-	fsInitCtx := setup.FSInit{
-		BasePath: "/",
-	}
-	fsInitCtx.Init()
+	core.InvokeLoader()
 
 	/*
-		(4.) Basic Launcher
-	 */
-	 shellCtx := launch.Shell{
+		(4.) Launcher (shell, etc..)
+	*/
 
-	 }
-	 shellCtx.Launch()
+	 shellInst := launchables.Shell{Path:"/bin/mksh"}
+	 shellInst.Launch()
 
 }

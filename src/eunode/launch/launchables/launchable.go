@@ -1,4 +1,4 @@
-package launch
+package launchables
 
 type Launchable interface {
 	Launch()
